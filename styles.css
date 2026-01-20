@@ -1,0 +1,40 @@
+
+/*Estilo para las columnas (seccion de presentación) */
+.col-lg-4 {
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px; /* Bordes redondeados para que se vea moderno */
+    transition: transform 0.3s ease; /* Para que cuando pase el mouse se mueva */
+    color: #333;
+}
+/*  Para que el contenedor no pegue a los bordes de la pantalla */
+.container-fluid {
+    padding: 20px 50px;
+}
+/* Ajustes para los botones de abajo */
+.btn {
+    margin: 20px 10px;
+    border-radius: 50px; /* Botones estilo "pill" que están de moda */
+    padding: 20px 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+} 
+/* Botón Rojo */
+.boton-rojo {
+    background-color: #FF5733; /* Color rojo anaranjado */
+}
+
+/* Botón Azul */
+.boton-azul {
+    background-color: #337AFF; /* Color azul */
+}
+
+/* Botón Verde */
+.boton-verde {
+    background-color: #33FF57; /* Color verde */
+}
+
+.text-center{
+    color: #FF5733;
+}
